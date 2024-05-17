@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+import "EntityMotion.proto";
+
+message SceneEntityMoveCsReq {
+    uint32 entry_id = 9;
+    uint64 ekhkdfimkak = 1;
+    repeated EntityMotion entity_motion_list = 4;
+}

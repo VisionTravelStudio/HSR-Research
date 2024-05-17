@@ -1,0 +1,11 @@
+syntax = "proto3";
+option java_package = "emu.lunarcore.proto";
+
+import "Avatar.proto"; // 假设 Avatar 消息的定义在 avatar.proto 文件中
+
+message GetAvatarDataScRsp {
+  repeated uint32 unlocked_skin_id_list = 5;
+  bool is_all = 3;
+  uint32 retcode = 7;
+  repeated Avatar avatar_list = 9;
+}

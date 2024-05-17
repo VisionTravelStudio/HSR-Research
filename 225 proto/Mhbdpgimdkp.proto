@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+import "Jjkhlanlapj.proto";
+
+message Mhbdpgimdkp {
+    // 自定义字段1
+    uint32 ojljokcgaad = 6;
+    // 键值对
+    map<uint32, uint32> okabnomecmo = 1;
+    // 自定义字段2
+    bool oeamlgncbgi = 10;
+    // 自定义字段3
+    bool lajjhjgfjaj = 7;
+    // 自定义字段4
+    uint32 oeceedkkekm = 8;
+    // 自定义字段5
+    bool akjocfhfklg = 15;
+    // 自定义字段6
+    uint32 jlgboddadee = 4;
+    // 自定义字段7
+    uint32 cnnknigjfjj = 3;
+    // 一些自定义的消息列表
+    repeated Jjkhlanlapj nmbdmfpkffm = 2;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+import "ClientDownloadData.proto"; // 假设 ClientDownloadData 消息的定义在 client_download_data.proto 文件中
+
+message PlayerHeartBeatScRsp {
+  ClientDownloadData download_data = 4;
+  uint64 server_time_ms = 3;
+  uint32 retcode = 13;
+  uint64 client_time_ms = 11;
+}

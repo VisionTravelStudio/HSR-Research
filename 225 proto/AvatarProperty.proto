@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+message AvatarProperty {
+    // 最大生命值
+    double max_hp = 1;
+    // 攻击力
+    double attack = 2;
+    // 防御力
+    double defence = 3;
+    // 速度
+    double speed = 4;
+    // 剩余生命值
+    double left_hp = 5;
+    // 剩余能量值
+    double left_sp = 6;
+    // 最大能量值
+    double max_sp = 7;
+}

@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+import "PlayerBasicInfo.proto"; // 假设 PlayerBasicInfo 消息的定义在 player_basic_info.proto 文件中
+
+message PlayerLoginScRsp {
+  bool hjloaoholon = 13;
+  uint32 stamina = 1;
+  uint64 login_random = 15;
+  string hkogaffieoa = 8;
+  int32 cur_timezone = 12;
+  uint32 retcode = 2;
+  PlayerBasicInfo basic_info = 9;
+  uint64 server_timestamp_ms = 7;
+  string pmgnbfihfck = 4;
+  bool jehoalehieg = 11;
+}

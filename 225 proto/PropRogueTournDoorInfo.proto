@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+message PropRogueTournDoorInfo {
+    // 一些自定义的值1
+    uint32 kmkgeedlime = 10;
+    // 是否某种状态
+    bool iimbagmhgkm = 6;
+    // 一些自定义的值2
+    uint32 aijipdeafno = 5;
+}

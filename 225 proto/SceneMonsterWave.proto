@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+import "SceneMonsterData.proto"; // 假设 SceneMonsterData 消息的定义在 scene_monster_data.proto 文件中
+import "SceneMonsterWaveParam.proto"; // 假设 Kjfnknacfin 消息的定义在 kjfnknacfin.proto 文件中
+import "ItemList.proto"; // 假设 ItemList 消息的定义在 item_list.proto 文件中
+
+message SceneMonsterWave {
+  uint32 stage_id = 14;
+  repeated SceneMonsterData monster_list = 3;
+  uint32 wave_id = 1;
+  SceneMonsterWaveParam wave_param = 8;
+  repeated ItemList drop_list = 4;
+}

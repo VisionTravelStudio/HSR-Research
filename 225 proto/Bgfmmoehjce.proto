@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+message Bgfmmoehjce {
+    // 自定义字段1
+    uint32 foiccmaklpa = 2;
+    // 自定义字段2
+    uint32 iaglgkpdloe = 10;
+    // 自定义字段3
+    uint32 dcjhajibggg = 11;
+}

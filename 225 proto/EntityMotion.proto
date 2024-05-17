@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+import "MotionInfo.proto";
+
+message EntityMotion {
+    // 地图层级
+    uint32 map_layer = 14;
+    // 运动信息（可选）
+    MotionInfo motion = 4;
+    // 是否隐藏
+    bool bocenohcdcm = 15;
+    // 实体ID
+    uint32 entity_id = 10;
+}

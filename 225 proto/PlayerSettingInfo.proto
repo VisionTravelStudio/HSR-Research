@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+message PlayerSettingInfo {
+    bool amgbjcgchle = 10;
+    bool bffeaeaemig = 4;
+    bool ljeelnkpifj = 12;
+    bool ggcdkfmmccd = 8;
+    bool feeelleaepc = 9;
+    //Kmmiecegekn gljhhoclnfc = 15;
+    bool dbpgaepgcaa = 14;
+    bool aokkoooodcn = 3;
+    bool idflcnjjldo = 7;
+}

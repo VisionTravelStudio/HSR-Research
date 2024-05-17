@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+import "Flnonojipob.proto";
+
+message Pcmppahldim {
+    // 可选的自定义消息列表
+    repeated Flnonojipob cknnpogkead = 7;
+}

@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+import "PropRogueInfo.proto";
+import "PropAeonInfo.proto";
+import "PropChessRogueInfo.proto";
+import "PropRogueTournDoorInfo.proto";
+import "PropTournWorkbenchInfo.proto";
+import "PropRogueGambleMachineInfo.proto";
+import "PropRogueCurseChestInfo.proto";
+
+message PropExtraInfo {
+    // 一些自定义的字段
+    PropRogueInfo rogue_info = 14;
+    // 一些自定义的字段
+    PropAeonInfo aeon_info = 9;
+    // 一些自定义的字段
+    PropChessRogueInfo chess_rogue_info = 3;
+    // 一些自定义的字段
+    PropRogueTournDoorInfo rogue_tourn_door_info = 11;
+    // 一些自定义的字段
+    PropTournWorkbenchInfo rogue_tourn_workbench_info = 5;
+    // 一些自定义的字段
+    PropRogueGambleMachineInfo rogue_gamble_machine_info = 6;
+    // 一些自定义的字段
+    PropRogueCurseChestInfo rogue_curse_chest_info = 4;
+}

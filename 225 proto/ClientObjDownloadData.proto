@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+import "ClientDownloadData.proto"; // Replace "your_proto_file.proto" with the actual filename if you have separate files
+
+message ClientObjDownloadData {
+  bytes obj = 1;
+  ClientDownloadData obj_data = 2;
+}

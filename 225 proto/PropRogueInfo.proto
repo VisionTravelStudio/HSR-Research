@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+message PropRogueInfo {
+    // 自定义字段1
+    uint32 ghpllgipmdi = 13;
+    // 自定义字段2
+    uint32 hhagaoeefea = 3;
+    // 自定义字段3
+    uint32 kggiencobnl = 12;
+    // 自定义字段4
+    uint32 dogldhglhin = 1;
+}

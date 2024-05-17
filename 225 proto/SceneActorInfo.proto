@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+import "AvatarType.proto";
+
+message SceneActorInfo {
+  uint32 uid = 15;
+  uint32 map_layer = 13;
+  uint32 base_avatar_id = 5;
+  AvatarType avatar_type = 10;
+}

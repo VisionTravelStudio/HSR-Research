@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+message Chkmnnkmlpl {
+    // 是否遇见
+    bool is_meet = 6;
+    // 自定义字段1
+    uint32 oepgonlledi = 3;
+    // 自定义字段2
+    uint32 nlglfgeacpi = 9;
+}

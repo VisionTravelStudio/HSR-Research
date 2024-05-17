@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+message MazeGroup {
+    // 迷宫组ID
+    uint32 group_id = 5;
+    // 修改时间
+    int64 modify_time = 15;
+    // 是否某种状态
+    bool lccbfljnkpg = 13;
+    // 一组迷宫ID
+    repeated uint32 gabhnadihdf = 2;
+}

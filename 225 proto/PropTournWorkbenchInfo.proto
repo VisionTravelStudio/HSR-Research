@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+import "Jmipkcjckcj.proto";
+
+message PropTournWorkbenchInfo {
+    // 工作台信息列表
+    repeated Jmipkcjckcj jiaekeibhcj = 4;
+    // 一些自定义的值
+    uint32 cggmflnnfle = 9;
+}

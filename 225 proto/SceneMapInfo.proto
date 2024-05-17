@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+import "MazeGroup.proto";
+import "MazePropState.proto";
+import "MazeChest.proto";
+import "Bgfmmoehjce.proto";
+
+message SceneMapInfo {
+    // 返回码
+    uint32 retcode = 1;
+    // 已打开的宝箱数量
+    uint32 opend_chest_num = 2;
+    // 迷宫道具列表
+    repeated MazePropState maze_prop_list = 3;
+    // 宝箱信息列表
+    repeated MazeChest chest_info_list = 9;
+    // 迷宫组列表
+    repeated MazeGroup maze_group_list = 14;
+    // 入口ID
+    uint32 entry_id = 5;
+    // 未知场景
+    uint32 unk_scene = 13;
+    // 一些自定义的消息列表
+    repeated Bgfmmoehjce jffklpbohgi = 4;
+    // 解锁传送门列表
+    repeated uint32 unlock_teleport_list = 10;
+    // 亮灯段落列表
+    repeated uint32 lighten_section_list = 12;
+    // 自定义字段
+    uint32 jkbgighlakf = 11;
+}

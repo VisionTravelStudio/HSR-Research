@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+import "Pcmppahldim.proto";
+
+message MissionCustomValue {
+    // 一些自定义的值
+    uint32 apkmcgkeofa = 14;
+    // 可选的自定义消息
+    Pcmppahldim cknnpogkead = 1;
+}

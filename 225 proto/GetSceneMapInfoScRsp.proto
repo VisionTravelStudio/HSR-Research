@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+import "MazePropState.proto"; // Assuming MazePropState message is defined in maze_prop_state.proto
+import "MazeChest.proto"; // Assuming MazeChest message is defined in chest_info.proto
+import "MazeGroup.proto"; // Assuming MazeGroup message is defined in maze_group.proto
+import "SceneMapInfo.proto"; // Assuming SceneMapInfo message is defined in scene_map_info.proto
+
+message GetSceneMapInfoScRsp {
+  uint32 lafhcgjnphh = 13;
+  repeated MazePropState maze_prop_list = 7;
+  uint32 entry_id = 11;
+  uint32 retcode = 10;
+  repeated MazeChest chest_info_list = 5;
+  repeated MazeGroup maze_group_list = 14;
+  repeated uint32 unlock_teleport_list = 15;
+  uint32 opend_chest_num = 8;
+  repeated SceneMapInfo map_info_list = 4;
+  bool hjajmoobhkp = 12;
+  uint32 jkbgighlakf = 2;
+  repeated uint32 lighten_section_list = 1;
+}

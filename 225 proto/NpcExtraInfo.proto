@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+import "Mhbdpgimdkp.proto";
+import "Chkmnnkmlpl.proto";
+import "Bcpljejjaen.proto";
+
+message NpcExtraInfo {
+    // 可选的额外信息1
+    Mhbdpgimdkp fbhddfiopmo = 9;
+    // 可选的额外信息2
+    Chkmnnkmlpl nleokpdbnjf = 5;
+    // 可选的额外信息3
+    Bcpljejjaen nojgbhibfjj = 7;
+}

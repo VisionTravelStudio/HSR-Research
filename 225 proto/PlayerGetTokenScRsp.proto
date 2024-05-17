@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+import "BlackInfo.proto"; // 假设 BlackInfo 消息的定义在 black_info.proto 文件中
+
+message PlayerGetTokenScRsp {
+  string msg = 8;
+  BlackInfo black_info = 2;
+  uint32 uid = 3;
+  uint64 secret_key_seed = 15;
+  uint32 retcode = 12;
+}

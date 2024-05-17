@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+import "ClientUploadData.proto"; // 假设 ClientUploadData 消息的定义在 client_upload_data.proto 文件中
+
+message PlayerHeartBeatCsReq {
+  ClientUploadData upload_data = 8;
+  uint32 mibkhmfojlb = 4;
+  uint64 client_time_ms = 11;
+}

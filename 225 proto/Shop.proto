@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+import "Goods.proto";
+
+message Shop {
+    // 城市已接受等级奖励
+    uint64 city_taken_level_reward = 4;
+    // 城市经验
+    uint32 city_exp = 2;
+    // 结束时间
+    int64 end_time = 15;
+    // 城市等级
+    uint32 city_level = 8;
+    // 商店ID
+    uint32 shop_id = 14;
+    // 商品列表
+    repeated Goods goods_list = 9;
+    // 开始时间
+    int64 begin_time = 10;
+}

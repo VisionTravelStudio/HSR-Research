@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+message SceneMonsterData {
+    // 怪物ID
+    uint32 monster_id = 2;
+    // 最大生命值
+    uint32 max_hp = 9;
+    // 自定义字段
+    uint32 jjhfeikbakk = 3;
+}

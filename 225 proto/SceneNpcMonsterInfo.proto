@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+import "NpcMonsterExtraInfo.proto";
+
+message SceneNpcMonsterInfo {
+  bool eamjhgeldmh = 5;
+  bool ndacobgceic = 9;
+  uint32 event_id = 11;
+  uint32 world_level = 6;
+  uint32 monster_id = 12;
+  NpcMonsterExtraInfo extra_info = 7;
+}

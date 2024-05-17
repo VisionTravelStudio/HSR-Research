@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+message Flnonojipob {
+    // 自定义字段1
+    uint32 lmfadlckloe = 10;
+    // 自定义字段2
+    uint32 index = 8;
+}

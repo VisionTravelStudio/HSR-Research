@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "emu.lunarcore.proto";
+
+message PileItem {
+    // 物品ID
+    uint32 item_id = 3;
+    // 物品数量
+    uint32 item_num = 11;
+}
