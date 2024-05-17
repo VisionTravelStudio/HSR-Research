@@ -1,6 +1,8 @@
 # HSR-Research
 A repository for an anime game.
 
+[中文说明](/README.zh_CN.MD)
+
 ## Explain
 
 _JUST FOR EXCHANGE AND LEARNING ONLY!!!_
